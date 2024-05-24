@@ -19,6 +19,9 @@
     "wagmi": "^2.9.5",
     "web3": "^4.8.0"
   },
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
