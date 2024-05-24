@@ -1,0 +1,35 @@
+.aboutUsSection-container {
+    position: relative;
+    background: linear-gradient(180deg, #3418a388 2.53%, #cd70e293 148.02%);
+
+    .aboutUsSection-inner-container {
+        width: 85%;
+        margin: auto;
+        padding: 100px 5px 190px 5px;
+
+        h5 {
+            color: var(--main-light-primary, #fd03e8);
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+        }
+
+        h2 {
+            color: var(--Text-primary, #FFF);
+            font-size: 45px;
+            font-style: normal;
+            font-weight: 800;
+            margin-bottom: 40px;
+        }
+
+        p {
+            color: var(--Text-primary, #FFF);
+            text-align: justify;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 22px;
+            margin-bottom: 20px;
+        }
+    }
+}

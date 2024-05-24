@@ -1,0 +1,157 @@
+footer {
+    display: flex;
+    border-top: 1px solid rgba(255, 255, 255, 0.20);
+    position: relative;
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 1px;
+        background: linear-gradient(25deg, #2904fa, #fd03e8);
+    }
+    .footer-left-container {
+        width: 50%;
+        border-right: 1px solid rgba(255, 255, 255, 0.20);
+
+        .footer-leftFirst-inner-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            padding: 100px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.20);
+            .logo-container {
+                color: #fd03e8;
+                font-size: 30px;
+                font-weight: 600;
+            }
+            img {}
+
+            p {
+                max-width: 320px;
+                color: var(--Text-secondary, rgba(255, 255, 255, 0.72));
+                
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 22px;
+            }
+        }
+
+        .footer-leftSecond-inner-container {
+            display: flex;
+            justify-content: space-between;
+            padding: 100px 100px 86px 100px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.20);
+           
+            .footer-leftSecond-box {
+                h5 {
+                    color: var(--main-light-primary, #2904fa);
+                    
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 22px;
+                    padding-bottom: 20px;
+                }
+
+                ul {
+                    list-style-type: none;
+                    li {
+                        margin-bottom: 12px;
+
+                        a {
+                            color: var(--Text-primary, #FFF);
+                            text-align: center;
+                            text-decoration: none;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 24px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .footer-leftthird-inner-container {
+            display: flex;
+            justify-content: start;
+            gap: 32px;
+            padding: 32px 32px 32px 100px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.20);
+
+        }
+
+        .footer-leftfourth-inner-container {
+            display: flex;
+            align-items: center;
+            height: 100px;
+            padding: 32px 32px 32px 100px;
+
+            p {
+                color: var(--Text-secondary, #656565);
+                
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 22px;
+            }
+        }
+
+    }
+
+
+    .footer-right-container {
+        width: 50%;
+
+        .footersubscribe-container {
+            padding: 100px;
+
+            h2 {
+                color: var(--Text-primary, #FFF);
+                
+                font-size: 48px;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 60px;
+                padding-bottom: 5px;
+            }
+
+            .footersubscribe-input-container {
+                width: 350px;
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                padding: 0px 20px;
+                border-radius: 500px;
+                border: 1px solid rgba(255, 255, 255, 0.20);
+                background: var(--Components-textfield-filled, rgba(255, 255, 255, 0.08));
+
+                input {
+                    padding: 16px 16px;
+                    width: 100%;
+                    background-color: transparent;
+                    text-overflow: ellipsis;
+                    
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 22px;
+
+                    &::placeholder {
+                        color: var(--Text-disabled, rgba(255, 255, 255, 0.56));
+                        text-overflow: ellipsis;
+                        
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 22px;
+                    }
+                }
+            }
+        }
+    }
+}
